@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  margin: 0;
+  padding: 60px 20px;
+  color: #0f172a;
+}
+
+.app {
+  max-width: 520px;
+  margin: auto;
+  background: white;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.subtitle {
+  color: #64748b;
+  margin-top: 8px;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+input {
+  flex: 1;
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #2563eb;
+}
+
+button {
+  padding: 13px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+ul {
+  padding: 0;
+  margin-top: 25px;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+li span {
+  flex: 1;
+}
+
+#taskCount {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 20px;
+}
+li.completed {
+  opacity: 0.55;
+}
+
+li.completed span {
+  text-decoration: line-through;
+}
