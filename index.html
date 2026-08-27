@@ -1,13 +1,30 @@
-div class="app">
-  <h1>TaskFlow</h1>
-  <p class="subtitle">Stay organized. Get things done.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow</title>
 
-  <div class="input-area">
-    <input type="text" id="taskInput" placeholder="What do you need to do?">
-    <button id="addBtn">Add Task</button>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="app">
+    <h1>TaskFlow</h1>
+    <p class="subtitle">Stay organized. Get things done.</p>
+
+    <div class="input-area">
+      <input type="text" id="taskInput" placeholder="What do you need to do?">
+      <button id="addBtn">Add Task</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <p id="taskCount">0 tasks remaining</p>
   </div>
 
-  <ul id="taskList"></ul>
+  <script src="script.js"></script>
 
-  <p id="taskCount">0 tasks remaining</p>
-</div>
+</body>
+</html>
