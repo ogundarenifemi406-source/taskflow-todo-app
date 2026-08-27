@@ -76,15 +76,16 @@ li span {
   flex: 1;
 }
 
-#taskCount {
-  color: #64748b;
-  font-size: 14px;
-  margin-top: 20px;
-}
 li.completed {
   opacity: 0.55;
 }
 
 li.completed span {
   text-decoration: line-through;
+}
+
+#taskCount {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 20px;
 }
