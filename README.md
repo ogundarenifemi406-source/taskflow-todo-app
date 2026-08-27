@@ -23,4 +23,4 @@ Live Demo: https://ogundarenifemi406-source.github.io/taskflow-todo-app/
 
 Author
 Oluwanifemi Ogundare
-GitHub: 
+GitHub: ogundarenifemi406-source · he/him
